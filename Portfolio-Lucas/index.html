@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Silva — Portfolio</title>
+    <link rel="icon" href="assets/icons/code-window.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <a
+    href="https://wa.me/5511943873648?text=Olá%20Lucas,%20vim%20pelo%20seu%20portfólio!"
+    class="whatsapp-float"
+    target="_blank"
+  >
+    💬
+  </a>
+  <body>
+    <!-- NAV -->
+    <nav id="mainNav">
+      <div class="nav-logo">&lt;<span>lucas</span>.silva /&gt;</div>
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#resumo">Resumo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+      <div
+        class="glow-dot"
+        style="
+          width: 500px;
+          height: 500px;
+          background: var(--accent);
+          opacity: 0.04;
+          top: -100px;
+          right: -100px;
+        "
+      ></div>
+      <div
+        class="glow-dot"
+        style="
+          width: 300px;
+          height: 300px;
+          background: var(--accent2);
+          opacity: 0.06;
+          bottom: 50px;
+          left: 200px;
+        "
+      ></div>
+
+      <div class="hero-grid">
+        <div class="hero-left">
+          <p class="hero-greeting">// Olá, mundo!</p>
+          <h1 class="hero-name">Lucas <em>Silva</em></h1>
+          <p class="hero-role">
+            Desenvolvedor <strong>Full Stack</strong> apaixonado por
+            construir<br />
+            produtos que escalam e interfaces que encantam.
+          </p>
+          <div class="hero-cta">
+            <a href="#projetos" class="btn-primary">Ver Projetos</a>
+            <a href="#contato" class="btn-secondary">Fale Comigo</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="avatar-frame">
+            <div class="avatar-inner">
+              <img src="assets/lusca.jpeg" alt="Lucas Silva" />
+            </div>
+            -
+            <div class="hero-stats">
+              <div class="stat-pill"><span>2+</span> anos de exp.</div>
+              <div class="stat-pill"><span>20+</span> projetos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        scroll
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+      <div class="container">
+        <div class="section-label">01 — sobre mim</div>
+        <div class="sobre-grid">
+          <div class="sobre-left">
+            <h2>Quem sou <em>eu</em>.</h2>
+            <p>
+              Desenvolvedor apaixonado por criar soluções inteligentes,
+              eficientes e bem projetadas. Possuo experiência no desenvolvimento
+              de aplicações completas, do backend ao frontend, com foco em
+              performance, escalabilidade e experiência do usuário. Também atuo
+              com testes, depuração e automação de processos, garantindo maior
+              confiabilidade nas aplicações e otimizando fluxos de trabalho.
+              Tenho como prioridade entregar código limpo, organizado e
+              preparado para crescer junto com o projeto.
+            </p>
+            <p>
+              Acredito que bom código é aquele que outros conseguem ler, manter
+              e evoluir. Busco sempre clareza, performance e experiência de
+              usuário excepcional.
+            </p>
+
+            <div class="skills-grid">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Automação com Python</span>
+              <span class="skill-tag">APIs REST</span>
+            </div>
+          </div>
+
+          <div class="sobre-right">
+            <div class="info-card">
+              <h4>Localização</h4>
+              <p>
+                São Paulo, Brasil 🇧🇷 — disponível para trabalho remoto,
+                presencial ou híbrido.
+              </p>
+            </div>
+            <div class="info-card">
+              <h4>Foco atual</h4>
+              <p>
+                Arquitetura de sistemas, desenvolvimento de APIs performáticas e
+                criação de interfaces modernas e intuitivas. Foco em
+                escalabilidade, organização de código e soluções eficientes que
+                resolvem problemas reais.
+              </p>
+            </div>
+            <div class="info-card">
+              <h4>Além do código</h4>
+              <p>
+                Cafézinho, open source, documentários e videos sobre tecnologia,
+                jogos nas horas vagas. Acredito que equilíbrio é essencial para
+                criatividade e produtividade.
+              </p>
+            </div>
+            <div class="info-card">
+              <h4>Disponibilidade</h4>
+              <p>
+                Aberto a projetos freelance e oportunidades CLT / PJ em full
+                stack ou QA. Me mande uma mensagem para conversarmos sobre como
+                posso ajudar a construir algo incrível juntos!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+      <div
+        class="glow-dot"
+        style="
+          width: 400px;
+          height: 400px;
+          background: var(--accent2);
+          opacity: 0.05;
+          top: 0;
+          right: 0;
+        "
+      ></div>
+      <div class="container">
+        <div class="section-label">02 — trabalhos</div>
+        <h2>
+          Projetos <span style="color: var(--accent)">selecionados.</span>
+        </h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-number">001</div>
+            <h3>SaaS Fitness</h3>
+            <p>
+              Aplicação voltada para o nicho fitness, com foco em organização de
+              treinos e gestão de usuários. Desenvolvida com objetivo de simular
+              um produto SaaS, aplicando conceitos de estruturação de sistemas e
+              experiência do usuário.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">TypeScript</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">PostgreSQL</span>
+            </div>
+            <a
+              href="https://github.com/Lussca000/fitness-saas"
+              target="_blank"
+              class="project-link"
+              >Ver projeto →</a
+            >
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">002</div>
+            <h3>Localizador de Ongs</h3>
+            <p>
+              Plataforma web desenvolvida para dar visibilidade a organizações
+              não governamentais, facilitando a divulgação de projetos e conexão
+              com possíveis apoiadores.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">FastAPI</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Streamlit</span>
+            </div>
+            <a
+              href="https://github.com/Lussca000/ongs-proximas"
+              target="_blank"
+              class="project-link"
+              >Ver projeto →</a
+            >
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">003</div>
+            <h3>Gerador de QR Code</h3>
+            <p>
+              Aplicação que gera QR Codes a partir de textos ou links, com foco
+              em praticidade e usabilidade. Projeto voltado para aplicação
+              dinâmica e manipulação de dados.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">TypeScript</span>
+            </div>
+            <a
+              href="https://github.com/Lussca000/qr-code-generator"
+              target="_blank"
+              class="project-link"
+              >Ver projeto →</a
+            >
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">004</div>
+            <h3>Quiz de Valorant</h3>
+            <p>
+              Aplicação interativa onde o usuário testa conhecimentos sobre
+              personagens do jogo, com lógica dinâmica e sistema de sugestões.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <a
+              href="https://github.com/Lussca000/Valdle-v2.0"
+              target="_blank"
+              class="project-link"
+              >Ver projeto →</a
+            >
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">005</div>
+            <h3>Automação de Processos em Python</h3>
+            <p>
+              Conjunto de scripts criados para automatizar tarefas repetitivas,
+              reduzindo tempo manual e aumentando produtividade. Inclui
+              manipulação de arquivos e execução de rotinas automatizadas.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">pyautogui</span>
+              <span class="project-tag">os / shutil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section id="resumo">
+      <div class="container">
+        <div class="section-label">03 — trajetória</div>
+        <h2>Meu <span style="color: var(--accent)">Resumo.</span></h2>
+
+        <div class="resume-grid">
+          <div class="resume-col">
+            <h3>// experiência</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-period">2024 — atual</div>
+                <h4>Desenvolvedor autônomo</h4>
+                <div class="company">· Remoto</div>
+                <p>
+                  Atuação em projetos freelance, desenvolvimento de soluções
+                  personalizadas e consultoria para startups e pequenos
+                  negócios. Foco em desenvolvimento full stack, automação e
+                  otimização de processos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-col">
+            <h3>// formação</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-period">2026 — 2027</div>
+                <h4>Técnologo em Análise e Desenvolvimento de Sistemas</h4>
+                <div class="company">
+                  Universidade Braz Cubas - Mogi das Cruzes
+                </div>
+                <p>
+                  Fundamentos de algoritmos, estruturas de dados, programação
+                  orientada a objetos, desenvolvimento web, bancos de dados,
+                  arquitetura de software e Prompts de IA.
+                </p>
+              </div>
+              <!--
+              <div class="timeline-item">
+                <div class="timeline-period">2022</div>
+                <h4>AWS Certified Solutions Architect</h4>
+                <div class="company">Amazon Web Services</div>
+                <p>
+                  Certificação em arquitetura de nuvem, escalabilidade e
+                  serviços AWS.
+                </p>
+              </div>
+              -->
+
+              <div class="timeline-item">
+                <div class="timeline-period">2025</div>
+                <h4>Desenvolvimento Fullstack (React & Node.js)</h4>
+                <div class="company">Alura</div>
+                <p>
+                  Formação em Desenvolvimento Fullstack pela Alura, incluindo
+                  fundamentos da web, JavaScript, criação de aplicações com
+                  React, construção de APIs REST com Node.js, integração com
+                  bancos de dados, autenticação, consumo de APIs, gerenciamento
+                  de estado, testes e boas práticas de arquitetura, performance
+                  e segurança.
+                </p>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-period">2025</div>
+                <h4>Engenharia de dados</h4>
+                <div class="company">Alura</div>
+                <p>
+                  Formação em Engenharia de Dados pela Alura, incluindo
+                  construção de pipelines de dados, modelagem, integração de
+                  múltiplas fontes, processamento distribuído e aplicação de
+                  boas práticas de governança e qualidade de dados.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="assets/Lucas_Silva_CV_QA_Fullstack.pdf" class="download-btn">
+          ↓ Download CV completo
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+      <div
+        class="glow-dot"
+        style="
+          width: 600px;
+          height: 600px;
+          background: var(--accent);
+          opacity: 0.03;
+          bottom: -200px;
+          right: -100px;
+        "
+      ></div>
+      <div class="contato-inner">
+        <div class="section-label">04 — contato</div>
+        <div class="contato-header">
+          <h2>Vamos <em>construir</em><br />algo juntos.</h2>
+        </div>
+
+        <div class="contato-grid">
+          <div class="contato-info">
+            <p>
+              Estou disponível para projetos freelance, posições CLT/PJ e
+              colaborações. Me manda uma mensagem — respondo geralmente em menos
+              de 24h.
+            </p>
+
+            <div class="contact-links">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=lucassdev.react@gmail.com&su=Contato%20via%20Portfólio"
+                target="_blank"
+                class="contact-link"
+              >
+                <span class="contact-link-icon">✉</span>
+                Enviar e-mail
+              </a>
+              <a
+                href="https://www.linkedin.com/in/lucasmdrsilva/"
+                target="_blank"
+                class="contact-link"
+              >
+                <span class="contact-link-icon">in</span>
+                linkedin.com/in/lucasmdrsilva/
+              </a>
+              <a
+                href="https://github.com/Lussca000"
+                target="_blank"
+                class="contact-link"
+              >
+                <span class="contact-link-icon">⌥</span>
+                github.com/Lussca000
+              </a>
+            </div>
+          </div>
+
+          <form
+            id="contactForm"
+            class="contact-form"
+            onsubmit="handleSubmit(event)"
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nome</label>
+                <input type="text" placeholder="Seu nome" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="seu@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Assunto</label>
+              <input type="text" placeholder="Sobre o projeto..." required />
+            </div>
+            <div class="form-group">
+              <label>Mensagem</label>
+              <textarea
+                rows="5"
+                placeholder="Descreva seu projeto, ideia ou oportunidade..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensagem →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 <span>Lucas Silva</span> — Desenvolvido com 💻 e ☕</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
